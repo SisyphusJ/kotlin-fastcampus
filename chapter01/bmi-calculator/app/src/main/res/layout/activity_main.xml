@@ -9,40 +9,42 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:textStyle="bold"
-        android:textSize="20sp"
-        android:textColor="@color/custom_black"
-        android:text="@string/height"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
-    <EditText
-        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="number"/>
+        android:text="@string/height"
+        android:textColor="@color/custom_black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/heightEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="number" />
 
     <TextView
         android:id="@+id/textView2"
-        android:textStyle="bold"
-        android:textSize="20sp"
-        android:textColor="@color/custom_black"
-        android:layout_marginTop="30dp"
-        android:text="@string/weight"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
-    <EditText
-        android:layout_marginTop="10dp"
-        android:id="@+id/editTextNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/weight"
+        android:textColor="@color/custom_black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/weightEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:ems="10"
-        android:inputType="number"/>
+        android:inputType="number" />
 
     <Button
-        android:layout_marginTop="50dp"
-        android:text="@string/check"
+        android:id="@+id/resultButton"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/check" />
 </LinearLayout>
