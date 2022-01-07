@@ -23,16 +23,19 @@ class MainActivity : AppCompatActivity() {
             if (heightEditText.text.isEmpty() || weightEditText.text.isEmpty()) {
                 Toast.makeText(this, "빈 값이 있다.", Toast.LENGTH_LONG).show()
                 return@setOnClickListener
-            } else {
-                val height: Int = heightEditText.text.toString().toInt()
-                val weight: Int = weightEditText.text.toString().toInt()
-
-                val intent = Intent(this, ResultActivity::class.java)
-                startActivity(intent)
-
-                Log.d("MainActivity", "height : $height weight : $weight")
-
             }
+            val height: Int = heightEditText.text.toString().toInt()
+            val weight: Int = weightEditText.text.toString().toInt()
+            val intent = Intent(this, ResultActivity::class.java)
+
+            intent.putExtra("height", height)
+            intent.putExtra("weight", weight)
+
+            startActivity(intent)
+
+            Log.d("MainActivity", "height : $height weight : $weight")
+
+
         }
 
     }
