@@ -4,7 +4,89 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64c2a7ec-e15d-41a9-a655-a2a990cc089d" name="Default Changelist" comment="" />
+    <list default="true" id="64c2a7ec-e15d-41a9-a655-a2a990cc089d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/part01/Lottery/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part01/Lottery/app/src/androidTest/java/com/sisyphusj/aop/part01/lottery/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part01/Lottery/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part01/Lottery/app/src/main/java/com/sisyphusj/aop/part01/lottery/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part01/Lottery/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part01/Lottery/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part01/Lottery/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part01/Lottery/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part01/Lottery/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part01/Lottery/app/src/test/java/com/sisyphusj/aop/part01/lottery/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part01/Lottery/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part01/Lottery/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part01/Lottery/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part01/bmi-calculator/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part01/bmi-calculator/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part01/bmi-calculator/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part01/bmi-calculator/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part01/bmi-calculator/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part01/bmi-calculator/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part01/bmi-calculator/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part01/bmi-calculator/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part01/bmi-calculator/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part01/bmi-calculator/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part01/bmi-calculator/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part01/bmi-calculator/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part01/bmi-calculator/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part01/bmi-calculator/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part01/bmi-calculator/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part01/bmi-calculator/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part01/bmi-calculator/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part01/bmi-calculator/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part01/bmi-calculator/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part01/bmi-calculator/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part01/bmi-calculator/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlin-fastcampus.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/part01/Lottery/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/part01/bmi-calculator/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/part01/bmi-calculator/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/part01/bmi-calculator/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/part01/bmi-calculator/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/part01/bmi-calculator/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/part01/bmi-calculator/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/part01/bmi-calculator/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/part01/Lottery/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/part01/bmi-calculator/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/part01/Lottery/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/app/src/androidTest/java/com/sysiphusj/aop/chapter01/bmi_calculator/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/part01/bmi-calculator/app/src/androidTest/java/com/sysiphusj/aop/chapter01/bmi_calculator/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/part01/bmi-calculator/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/app/src/main/java/com/sysiphusj/aop/chapter01/bmi_calculator/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/part01/bmi-calculator/app/src/main/java/com/sysiphusj/aop/chapter01/bmi_calculator/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/app/src/main/java/com/sysiphusj/aop/chapter01/bmi_calculator/ResultActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/part01/bmi-calculator/app/src/main/java/com/sysiphusj/aop/chapter01/bmi_calculator/ResultActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/part01/Lottery/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/part01/Lottery/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/part01/bmi-calculator/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/app/src/main/res/layout/activity_result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/part01/bmi-calculator/app/src/main/res/layout/activity_result.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/part01/Lottery/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/part01/Lottery/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/part01/Lottery/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/part01/Lottery/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/part01/Lottery/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/part01/Lottery/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/part01/Lottery/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/part01/Lottery/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/part01/Lottery/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/part01/Lottery/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/part01/Lottery/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/part01/Lottery/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/part01/bmi-calculator/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/part01/bmi-calculator/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/part01/bmi-calculator/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/part01/bmi-calculator/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/app/src/test/java/com/sysiphusj/aop/chapter01/bmi_calculator/ExampleUnitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/part01/bmi-calculator/app/src/test/java/com/sysiphusj/aop/chapter01/bmi_calculator/ExampleUnitTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/part01/bmi-calculator/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/part01/Lottery/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/part01/Lottery/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/part01/bmi-calculator/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/part01/Lottery/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/part01/Lottery/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/bmi-calculator/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/part01/bmi-calculator/settings.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +96,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="23MsIOaXUjEtg4anVlb1NLfHzxP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -21,7 +106,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/chapter01/bmi-calculator" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/part01/Lottery" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -33,5 +118,17 @@
       <updated>1641555209952</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
