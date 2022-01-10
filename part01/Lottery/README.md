@@ -12,7 +12,7 @@ Collection은 Generic으로 구현이 되어 다양한 타입과 함께 사용�
 
 <br>
 
-Collection은 기본적으로 **Mutable(변할 수 없는)**과 **Immutable(불변의)**을 별개로 지원한다. Mutable로 생성하면 추가, 삭제가 가능하지만, Immutable로 생성하면 수정이 안된다.
+Collection은 기본적으로 **Mutable(변할 수 없는)** 과 **Immutable(불변의)** 을 별개로 지원한다. Mutable로 생성하면 추가, 삭제가 가능하지만, Immutable로 생성하면 수정이 안된다.
 
 <br>
 
@@ -96,7 +96,7 @@ Map 또한 Immutable과 Mutable을 별개로 지원한다.
 
 Map은 mapOf<key type, value type>(아이템)으로 생성한다.
 
-아이템은 Pair객체로 표한하며, Pair에 key와 value를 넣을 수 있다. **Pair(A, B)**는 **A to B**로 간단히 표현이 가능하다.
+아이템은 Pair객체로 표한하며, Pair에 key와 value를 넣을 수 있다. **Pair(A, B)** 는 **A to B** 로 간단히 표현이 가능하다.
 
 getter는 get(index)와 [index]를 모두 지원한다. (코틀린은 배열 방식을 선호한다.)
 
@@ -115,6 +115,68 @@ mutableMapOf<key type, value type>(아이템)로 생성한다.
 put도 배열 방식을 지원한다. 그 외에는 자바의 Map과 유사하다
 
 <br>
+
+<br>
+
+<br>
+
+---
+
+<br>
+
+### chainStyle
+
+<br>
+
+contraintLayout에서 각 뷰간의 상호 참조 연결을 할 때 뷰들을 어떠한 방식으로 표현할 지 정한다.
+
+**뷰 사이의 간격을 조정할 때 유용하다**
+
+<br>
+
+### val, var
+
+**val : immutable 변수로 지정한다. == final** <br>
+**var : mutable 변수로 지정한다. 값을 변경할 수 있다.**
+
+<br>
+
+<br>
+
+## lateinit, lazy by
+
+<br>
+
+코틀린에서는 변수 선언에서 Nullable 변수 선언부터 엄격하게 관리한다.
+
+변수를 선언할 때도 Nuullsafe 지시자를 표시해야 하며 그렇지 않으면 컴파일 에러가 뜬다.
+
+### lateinit
+
+**lateinit**을 사용하면 변수의 값을 지정하는 작업을 뒤로 미룰 수 있다. **Nullable 하지 않은 변수를 선언하면서 Assign 하는 작업을 뒤로 미루고 싶을 때는 lateinit 키워드를 사용하면 가능하게 된다.**
+
+lateinit은 mutable 변수만 가능하기 때문에 var 키워드를 가진 변수에서만 사용이 가능하다.
+
+<br>
+
+### by lazy
+
+**by lazy** 키워드는 lateinit와 비슷하게 값을 지정하는 작업을 미루는 작업인데 **할당되는 시점이 변수를 호출하는 시점이다.**
+
+by lazy는 immutable 변수에서만 적용이 가능해 val 키워드 변수에만 적용이 가능하다.
+
+<br>
+
+<br>
+
+## 반환 지정
+
+<br>
+
+onClickListener와 같이 **람다식**을 사용할 경우는 return 이 클릭리스너에 대한 것인지 함수에 대한 것인지 구분하기가 어려운데
+
+이럴때 return 의 대상을 명시하기 위해서 @(at) 을 붙힌다.
+\*return@(어디)클릭리스너 이런식으로 반환 지정을 한다.
 
 <br>
 
