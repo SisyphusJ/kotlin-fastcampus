@@ -11,3 +11,11 @@
 <br>
 
 [lateinit, lazy by](part01/Lottery/README.md)
+
+<br>
+
+[getSaredPreferences()](part01/SecretDiary/README.md)
+
+<br>
+
+[getMainLooper()](part01/SecretDiary/README.md)

@@ -11,14 +11,17 @@
         android:theme="@style/Theme.SecretDiary">
         <activity
             android:name=".MainActivity"
-            android:theme="@style/Theme.SecretDiary.NoActionBar"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.SecretDiary.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".DiaryActivity"
+            android:theme="@style/Theme.SecretDiary.NoActionBar" />
     </application>
 
 </manifest>
