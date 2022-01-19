@@ -216,7 +216,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 lateinit : 늦은 초기화. property 초기화를 미루고 이후 값을 대입해 사용하는 방법
 
-[Room Databse 개념 출처]("https://velog.io/@ryalya/Android-DB-Room%EC%9D%B4%EB%9E%80")
+[Room Databse 개념 출처](https://velog.io/@ryalya/Android-DB-Room%EC%9D%B4%EB%9E%80)
 
 <br>
 
