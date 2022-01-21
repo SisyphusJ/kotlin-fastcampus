@@ -4,6 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Android Project/kotlin-fastcampus/part01/PomodoroTimer/app/src/main/res/layout/activity_main.xml" value="0.5395833333333333" />
+        <entry key="..\:/Users/KIMJINSEONG/AndroidStudioProjects/kotlin-fastcampus/part01/PomodoroTimer/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/KIMJINSEONG/AndroidStudioProjects/kotlin-fastcampus/part01/PomodoroTimer/app/src/main/res/drawable/drawable_tick_mark.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/KIMJINSEONG/AndroidStudioProjects/kotlin-fastcampus/part01/PomodoroTimer/app/src/main/res/drawable/drawable_ttick_mark.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/KIMJINSEONG/AndroidStudioProjects/kotlin-fastcampus/part01/PomodoroTimer/app/src/main/res/drawable/ic_launcher_background.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/KIMJINSEONG/AndroidStudioProjects/kotlin-fastcampus/part01/PomodoroTimer/app/src/main/res/drawable/ic_thumb.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/KIMJINSEONG/AndroidStudioProjects/kotlin-fastcampus/part01/PomodoroTimer/app/src/main/res/layout/activity_main.xml" value="0.1" />
       </map>
     </option>
   </component>
