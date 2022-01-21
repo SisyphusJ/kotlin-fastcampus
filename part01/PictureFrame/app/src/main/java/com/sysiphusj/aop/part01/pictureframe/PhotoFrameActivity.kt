@@ -3,8 +3,10 @@ package com.sysiphusj.aop.part01.pictureframe
 import android.net.Uri
 import android.os.Bundle
 import android.os.PersistableBundle
+import android.util.Log
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
+import java.util.*
 import kotlin.concurrent.timer
 
 class PhotoFrameActivity : AppCompatActivity() {
@@ -21,9 +23,13 @@ class PhotoFrameActivity : AppCompatActivity() {
 
     private var currentPosition = 0
 
+    private var timer: Timer? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_photoframe)
+
+        Log.d("PhotoFrame", "onStart!!! timer start")
 
         getPhotoUriFromIntent()
         startTimer()
@@ -39,8 +45,10 @@ class PhotoFrameActivity : AppCompatActivity() {
     }
 
     private fun startTimer() {
-        timer(period = 5 * 1000) {
+        timer = timer(period = 5 * 1000) {
             runOnUiThread {
+
+                Log.d("PhotoFrame", "5초 지나감")
 
                 val current = currentPosition
                 val next = if (photoList.size <= currentPosition + 1) 0 else currentPosition + 1
@@ -59,6 +67,30 @@ class PhotoFrameActivity : AppCompatActivity() {
 
             }
         }
+    }
+
+    override fun onStop() {
+        super.onStop()
+
+        Log.d("PhotoFrame", "onStop!!! timer cancel")
+
+        timer?.cancel()
+    }
+
+    override fun onStart() {
+        super.onStart()
+
+        Log.d("PhotoFrame", "onStart!!! timer start")
+
+        startTimer()
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+
+        Log.d("PhotoFrame", "onDestroy!!! timer cancel")
+
+        timer?.cancel()
     }
 
 

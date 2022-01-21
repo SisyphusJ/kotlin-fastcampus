@@ -20,7 +20,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PhotoFrameActivity" />
+        <activity android:name=".PhotoFrameActivity"
+
+            android:screenOrientation="landscape"/>
     </application>
 
 </manifest>
