@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         findViewById<TextView>(R.id.remainSecondsTextView)
     }
 
-    private var currentCountDonwTimer: CountDownTimer? = null
+    private var currentCountDownTimer: CountDownTimer? = null
 
     private val soundPool = SoundPool.Builder().build()
 
@@ -101,9 +101,9 @@ class MainActivity : AppCompatActivity() {
         }
 
     private fun startCountDown() {
-        currentCountDonwTimer = createCountDownTimer(seekBar.progress * 60 * 1000L)
+        currentCountDownTimer = createCountDownTimer(seekBar.progress * 60 * 1000L)
 
-        currentCountDonwTimer?.start()
+        currentCountDownTimer?.start()
 
         tickingSoundId?.let { soundId ->
             soundPool.play(soundId, 1F, 1F, 0, -1, 1F)
@@ -111,8 +111,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun stopCountDown() {
-        currentCountDonwTimer?.cancel()
-        currentCountDonwTimer = null
+        currentCountDownTimer?.cancel()
+        currentCountDownTimer = null
         soundPool.autoPause()
     }
 
