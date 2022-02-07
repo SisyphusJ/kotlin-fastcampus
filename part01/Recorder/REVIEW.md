@@ -124,6 +124,7 @@ private val visualizeRepeatAction: Runnable = object : Runnable {
 <br>
 
 **invoke**함수는 이름 없이 간편하게 호출될 수 있는 함수이다.
+invoke 함수가 정의만 되어있으면 이름으로 호출하지 않고도 호출하여 사용할 수 있다.
 
 # ENUM CLASS
 
