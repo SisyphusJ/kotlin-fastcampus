@@ -57,6 +57,10 @@ fun updateIconWithState(state: State) {
 
 <br>
 
+---
+
+<br>
+
 ## **chapter Recorder/SoundVisualizerView**
 
 ### CustomView를 만들어서 직접 View를 그리기
@@ -64,7 +68,7 @@ fun updateIconWithState(state: State) {
 <br>
 
 ```kotlin
-// 들어온 값이 int로 변환
+// void
 var onRequestCurrentAmplitude: (() -> Int)? = null
 
 // 음향 진폭을 시각화 한다.
@@ -87,7 +91,7 @@ var onRequestCurrentAmplitude: (() -> Int)? = null
 
 **apply**는 함수를 호출하는 객체를 이어지는 블록의 리시버로 전달하고, 객체 자체를 반환한다. 리시버란, 바로 이어지는 블록 내에서 메소드 및 속성에 바로 접근할 수 있도록 할 객체를 의미한다.
 
-즉, 특정 객체를 생성하면서 함께 호출해야 하는 초기화 코드가 있는 경우 사용한다.
+**즉, 특정 객체를 생성하면서 함께 호출해야 하는 초기화 코드가 있는 경우 사용한다.**
 
 <br>
 
@@ -102,31 +106,109 @@ private val visualizeRepeatAction: Runnable = object : Runnable {
         override fun run() {
             // Amplitude, Draw
             if (!isReplaying) {
+                // amplitude 값 가져오기
                 val currentAmplitude = onRequestCurrentAmplitude?.invoke() ?: 0
+                // 오른쪽부터 draw를 그리기 위해 순차적으로 정보를 쌓는다/
                 drawingAmplitudes = listOf(currentAmplitude) + drawingAmplitudes
             } else {
                 replayingPosition++
             }
 
+            // 뷰 갱신
             invalidate()
 
+            // 지연 발생
             handler?.postDelayed(this, ACTION_INTERVAL)
         }
-    }
-
-    override fun onSizeChanged(w: Int, h: Int, oldw: Int, oldh: Int) {
-        super.onSizeChanged(w, h, oldw, oldh)
-        drawingWidth = w
-        drawingHeight = h
     }
 ```
 
 <br>
 
-**invoke**함수는 이름 없이 간편하게 호출될 수 있는 함수이다.
-invoke 함수가 정의만 되어있으면 이름으로 호출하지 않고도 호출하여 사용할 수 있다.
+**invoke** 연산자는 함수타입의 인스턴스를 호출할 때 사용한다.
 
-# ENUM CLASS
+```kotlin
+var onRequestCurrentAmplitude: (() -> Int)? = null
+```
+
+이렇게 함수의 파라미터에 람다가 포함되어 있는 함수를 **고차함수**라고 부르는데 invoke는 이 파라미터에게 호출에 대한 정보를 전달하게 된다.
+
+<br>
+
+<br>
+
+```kotlin
+
+    // 사이즈 재설정
+    override fun onSizeChanged(w: Int, h: Int, oldw: Int, oldh: Int) {
+        super.onSizeChanged(w, h, oldw, oldh)
+        drawingWidth = w
+        drawingHeight = h
+    }
+
+    override fun onDraw(canvas: Canvas?) {
+        super.onDraw(canvas)
+
+        // canvas가 null 인경우 반환
+        canvas ?: return
+
+        val centerY = drawingHeight / 2f // view의 center 높이
+        var offsetX = drawingWidth.toFloat() // right
+
+
+        drawingAmplitudes
+            .let { amplitudes ->
+                if (isReplaying) {
+                    amplitudes.takeLast(replayingPosition)
+                } else {
+                    amplitudes
+                }
+            }
+
+            .forEach { amplitude ->
+
+                // 그릴려는 높이 대비 퍼센트로 draw
+                val lineLength = amplitude / MAX_AMPLITUDE * drawingHeight * 0.8F
+
+                offsetX -= LINE_SPACE
+                if (offsetX < 0) return@forEach
+
+                canvas.drawLine(
+                    offsetX,
+                    centerY - lineLength / 2F,
+                    offsetX,
+                    centerY + lineLength / 2F,
+                    amplitudePaint
+                )
+
+            }
+
+    }
+
+    fun startVisualizing(isReplaying: Boolean) {
+        this.isReplaying = isReplaying
+        handler?.post(visualizeRepeatAction)
+    }
+
+    fun stopVisualizing() {
+        replayingPosition = 0
+        handler?.removeCallbacks(visualizeRepeatAction)
+    }
+
+    fun clearVisualization() {
+        drawingAmplitudes = emptyList()
+        invalidate()
+    }
+
+    companion object {
+        private const val LINE_WIDTH = 10F
+        private const val LINE_SPACE = 15F
+        private const val MAX_AMPLITUDE = Short.MAX_VALUE.toFloat()
+        private const val ACTION_INTERVAL = 20L
+    }
+```
+
+## ENUM CLASS
 
 <br>
 
