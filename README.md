@@ -6,32 +6,30 @@
 
 <br>
 
-### [Collection 개념](part01/Lottery/README.md)
+## Part1
+
+### [Lottery](part01/Lottery/README.md)
+
+Collection <br> lateinit, lazy by
 
 <br>
 
-### [lateinit, lazy by](part01/Lottery/README.md)
+### [Recorder](part01/Recorder/REVIEW.md)
+
+CustomView <br> MediaRecorder
 
 <br>
 
-### [확장 함수](part01/Calculator/README.md)
+### [SecretDiary](part01/SecretDiary/README.md)
+
+Thread <br> getSaredPreferences()
 
 <br>
 
-### [getSaredPreferences()](part01/SecretDiary/README.md)
+### [Calculator](part01/Calculator/README.md)
+
+Room Database <br> 확장함수
 
 <br>
 
-### [CustomView](part01/Recorder/REVIEW.md)
-
-<br>
-
-### [MediaRecorder](part01/Recorder/REVIEW.md)
-
-<br>
-
-### [Thread](part01/SecretDiary/README.md)
-
-<br>
-
-### [Room Database](part01/Calculator/README.md)
+## Part2
