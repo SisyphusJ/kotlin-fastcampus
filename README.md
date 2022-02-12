@@ -2,11 +2,13 @@
 
 <br>
 
-<img src="https://blog.kakaocdn.net/dn/d0l1Pv/btqGmONiPmW/OluDzrKeEx79dtll0GFVik/img.png">
+<img src="https://blog.kakaocdn.net/dn/d0l1Pv/btqGmONiPmW/OluDzrKeEx79dtll0GFVik/img.png" width = 400px>
 
 <br>
 
-**2022-01-03 ~**
+<img src="https://w.namu.la/s/f72189df686d66cdcbb4c7f15e9532c3b897741e559d52c5f4f24da2b064cb3ba6e6bf37ab8bf321c82b16d7836f1993d174ee3364ba8c22c0955ff6f57bf15c12ac965dc77001de7881132b23b8ddd4" width = 400px>
+
+### 2022-01-03 ~
 
 <br>
 
