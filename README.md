@@ -22,13 +22,13 @@ Collection <br> lateinit, lazy by
 
 ### [Recorder](part01/Recorder/REVIEW.md)
 
-CustomView <br> MediaRecorder
+CustomView <br> MediaRecorder <br> ENUM Class <br> getter/setter <br> invoke
 
 <br>
 
 ### [SecretDiary](part01/SecretDiary/README.md)
 
-Thread <br> getSaredPreferences()
+Thread <br> getSaredPreferences() <br> runOnUiThread <br> handler & looper <br> getMainLooper()
 
 <br>
 
