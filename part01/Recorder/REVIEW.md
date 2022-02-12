@@ -169,7 +169,7 @@ private var state = State.BEFORE_RECORDING
 
 <br>
 
-# MediaRecorder 사용
+# 3. MediaRecorder 사용
 
 음성녹음을 할 때 사용하는 MediaRecorder는 사용자의 마이크를 통해서 녹음이 되도록 도와준다.
 
@@ -225,7 +225,7 @@ private fun stopRecording() {
 
 <br>
 
-# 커스텀 뷰로 음성 오디오 시각화
+# 4. 커스텀 뷰로 음성 오디오 시각화
 
 <br>
 
@@ -398,7 +398,7 @@ var onRequestCurrentAmplitude: (() -> Int)? = null
 
 <br>
 
-# 오디오 타임스탬프 구현
+# 5. 오디오 타임스탬프 구현
 
 <br>
 
