@@ -3,6 +3,7 @@ package com.sysiphusj.aop.part02.book_review.adpater
 import android.text.Html
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import android.widget.AdapterView
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
@@ -10,13 +11,17 @@ import com.bumptech.glide.Glide
 import com.sysiphusj.aop.part02.book_review.databinding.ItemBookBinding
 import com.sysiphusj.aop.part02.book_review.model.Book
 
-class BookAdapter: ListAdapter<Book, BookAdapter.BookItemViewHolder>(diffUtil) {
+class BookAdapter(private val itemClickedListener: (Book) -> Unit): ListAdapter<Book, BookAdapter.BookItemViewHolder>(diffUtil) {
 
     inner class BookItemViewHolder(private val binding: ItemBookBinding): RecyclerView.ViewHolder(binding.root) {
 
         fun bind(bookModel: Book) {
             binding.titleTextView.text = stripHtml(bookModel.title)
             binding.descriptionTextView.text = stripHtml(bookModel.description)
+
+            binding.root.setOnClickListener {
+                itemClickedListener(bookModel)
+            }
 
             Glide
                 .with(binding.coverImageView.context)

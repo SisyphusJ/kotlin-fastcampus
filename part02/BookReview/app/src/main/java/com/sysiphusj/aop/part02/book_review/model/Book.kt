@@ -1,7 +1,11 @@
 package com.sysiphusj.aop.part02.book_review.model
 
+import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
+import kotlinx.parcelize.Parcelize
 
+// 클래스 직렬화를 해서 인텐트에 클래스 자체를 보낸다....
+@Parcelize
 data class Book(
     @SerializedName("isbn") var isbn: String = "", // 유통과정 상의 책 고유의 넘버
     @SerializedName("title") var title: String = "", // 제목
@@ -13,4 +17,4 @@ data class Book(
     @SerializedName("publisher") var publisher: String = "", // 출판사
     @SerializedName("pubdate") var pubdate: String = "", // 출간일
     @SerializedName("description") var description: String = "", // 요약
-)
+): Parcelable

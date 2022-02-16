@@ -4,8 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Android Project/kotlin-fastcampus/part02/BookReview/app/src/main/res/drawable/background_gray_radius_8.xml" value="0.5703125" />
-        <entry key="..\:/Android Project/kotlin-fastcampus/part02/BookReview/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Android Project/kotlin-fastcampus/part02/BookReview/app/src/main/res/layout/activity_detail.xml" value="0.5541666666666667" />
+        <entry key="..\:/Android Project/kotlin-fastcampus/part02/BookReview/app/src/main/res/layout/activity_main.xml" value="0.4466666666666667" />
         <entry key="..\:/Android Project/kotlin-fastcampus/part02/BookReview/app/src/main/res/layout/item_book.xml" value="0.5541666666666667" />
+        <entry key="..\:/Android Project/kotlin-fastcampus/part02/BookReview/app/src/main/res/layout/item_history.xml" value="0.5" />
       </map>
     </option>
   </component>
